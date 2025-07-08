@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DashboardItemComponent } from '../dashboard-item/dashboard-item.component';
 
 @Component({
   selector: 'app-server',
@@ -9,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class ServerComponent {
   currentStatus = 'online';
+  imagePath = "status.png";
+  imageAlt = "A signal symbol";
+  headerContent = "Server Status";
 }
